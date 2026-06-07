@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// Changed BrowserRouter to HashRouter here
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './Login';
 import PatientDashboard from './PatientDashboard';
 import DoctorDashboard from './DoctorDashboard';
